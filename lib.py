@@ -159,7 +159,7 @@ def create_booking(email: str, author: str, title: str):
 
     if flag_1 == True:
         print('Пользователя с таким email не существует')    
-        return response(404, 'Пользотель с таким email не найден')
+        return response(404, 'Пользователь с таким email не найден')
     
     flag_1 = True
 
